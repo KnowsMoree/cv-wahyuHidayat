@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cv-wahyuHidayat/static/css/main.d2c286d3.chunk.css",
+    "main.js": "/cv-wahyuHidayat/static/js/main.0c0dfaf8.chunk.js",
+    "main.js.map": "/cv-wahyuHidayat/static/js/main.0c0dfaf8.chunk.js.map",
+    "runtime-main.js": "/cv-wahyuHidayat/static/js/runtime-main.aa0f5c73.js",
+    "runtime-main.js.map": "/cv-wahyuHidayat/static/js/runtime-main.aa0f5c73.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/cv-wahyuHidayat/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3d1da3d6.chunk.js": "/cv-wahyuHidayat/static/js/2.3d1da3d6.chunk.js",
+    "static/js/2.3d1da3d6.chunk.js.map": "/cv-wahyuHidayat/static/js/2.3d1da3d6.chunk.js.map",
+    "index.html": "/cv-wahyuHidayat/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/cv-wahyuHidayat/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d2c286d3.chunk.css.map": "/cv-wahyuHidayat/static/css/main.d2c286d3.chunk.css.map",
+    "static/js/2.3d1da3d6.chunk.js.LICENSE.txt": "/cv-wahyuHidayat/static/js/2.3d1da3d6.chunk.js.LICENSE.txt",
+    "static/media/center.css": "/cv-wahyuHidayat/static/media/my-img.5d8cfbbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa0f5c73.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3d1da3d6.chunk.js",
+    "static/css/main.d2c286d3.chunk.css",
+    "static/js/main.0c0dfaf8.chunk.js"
+  ]
+}
