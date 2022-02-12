@@ -1,0 +1,41 @@
+.school-name {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.nama {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nama .time {
+    margin-right: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.nama h2 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nama h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+@media screen and ( max-width: 435px ) {
+    #text-hero h2 {
+        font-size: 14px;
+        font-weight: 400;
+        width: 50%;
+    }
+    .skill-indicator {
+        max-width: 350px;
+    }
+    .skill-box {
+        max-width: 340px;
+    }
+}
+
+@media screen and ( max-width: 775px ) {
+    .container {
+        padding: 0 35px;
+    }
+    .skill-box  {
+        width: 250px;
+    }
+    .progress {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #my-img-wall {
+        margin-left: 0;
+        width: 150px;
+        height: 150px;
+    }
+    .my-img {
+        width: 150px;
+        height: 150px;
+    }
+    #desc {
+        margin-top: 90px;
+    }
+    #desc p {
+        margin-left: -100px;
+    }
+    .skill-box {
+        max-width: 330px;
+    }
+    .progress {
+        width: 305px;
+    }
+}
+
+@media screen and ( max-width: 892px ) {
+    #my-img-wall {
+        margin-left: 0;
+        width: 155px;
+        height: 155px;
+    }
+    .container {
+        padding: 0 25px;
+    }
+    .my-img {
+        width: 155px;
+        height: 155px;
+    }
+    #desc {
+        margin-top: 80px;
+    }
+    #desc p {
+        width: 450px;
+        margin-left: -60px;
+    }
+    .skill-box {
+        max-width: 345px;
+    }
+    .progress {
+        width: 305px;
+    }
+}
+
+@media screen and ( max-width: 765px ) {
+    #as h4 {
+        display: none;
+    }
+    #my-img-wall {
+        display: none;
+    }
+    #desc p {
+        margin: -70px 0 0 0;
+    }
+    .skill-box {
+        width: 255px;
+    }
+    .progress {
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 0 50px;
+    }
+    .skill-box {
+        width: 100%;
+    }
+    .progress {
+        width: 100%;
+    }
+    #desc p {
+        width: 100%;
+    }
+    #text-hero h2 {
+        font-size: 35px;
+    }
+}
