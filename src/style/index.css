@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
     background: #252525;
 }
 
+#head {
+    margin-top: 5.5rem;
+}
+
 .row {
-    margin-top: 7.5rem;
+    margin-top: 35px;
     margin-bottom: auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #787e81;
 }
 
@@ -20,14 +24,14 @@ container {
 
 #text-wall {
     color: #353636;
-    transform: translate(-30px,-30px);
+    transform: translate(-30px, -30px);
     width: 140px;
     height: 140px;
 }
 
 #text-hero {
-    font-family: 'Montserrat', sans-serif;
-    transform: translate(30px,30px);
+    font-family: "Montserrat", sans-serif;
+    transform: translate(30px, 30px);
 }
 
 #text-hero h2 {
@@ -38,6 +42,7 @@ container {
     letter-spacing: 0.3rem;
     width: max-content;
     line-height: 50px;
+    color: hsl(0, 0%, 73%);
 }
 
 small {
@@ -45,23 +50,24 @@ small {
     font-size: 16px;
     letter-spacing: 2px;
     color: grey;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #as h4 {
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 20px;
     font-weight: 400;
 }
 
 .heading {
-    color: #787e81;
-    font-size: 30px;
-    font-weight: 700;
+    color: hsl(0, 0%, 73%);
+    font-size: 35px;
+    font-weight: 600;
     letter-spacing: 7px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
 }
 
 #separator {

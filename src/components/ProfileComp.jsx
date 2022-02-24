@@ -4,13 +4,13 @@ import "../style/center.css";
 export default class ProfileComp extends Component {
     render() {
         return (
-            <div>
+            <div className="desc-cont">
                 <div id="desc">
                     <p>
-                        nama saya Wahyu Hidayat, kelahiran tahun 2003 di Boyolali, 
-                        saya seorang siswa kelas 11 jurusan rekyasa perangkat lunak 
-                        di SMKN 1 Kota Bekasi, saya memiliki minat pada bidang programming web dan
-                        pengembangan sebuah game.
+                        saya adalah seorang web developer yang berambisi untuk
+                        menggapai cita-cita. saya suka berinteraksi dengan
+                        siapapun. memiliki semangat yang tinggi dan suka belajar
+                        dengan hal baru.
                     </p>
                 </div>
             </div>

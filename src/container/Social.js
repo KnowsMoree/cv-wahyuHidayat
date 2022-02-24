@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import '../style/center.css'
-import SocialMedia from '../components/SocialMedia';
-import SubChapter from '../components/SubChapter'
+import "../style/center.css";
+import SocialMedia from "../components/SocialMedia";
+import SubChapter from "../components/SubChapter";
 
 export default class Social extends Component {
     render() {
@@ -12,7 +12,7 @@ export default class Social extends Component {
                     <Row>
                         <Col sm={12} md={12}>
                             <div className="title">
-                                <SubChapter judul={"Sosial Media"} />
+                                <SubChapter judul={"Kontak"} />
                             </div>
                         </Col>
                         <Col sm={12} md={12}>
@@ -21,6 +21,6 @@ export default class Social extends Component {
                     </Row>
                 </Container>
             </div>
-        )
+        );
     }
 }

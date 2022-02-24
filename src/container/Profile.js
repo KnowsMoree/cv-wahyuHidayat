@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProfileComp from '../components/ProfileComp';
-import SubChapter from '../components/SubChapter';
-import '../style/center.css'
+import ProfileComp from "../components/ProfileComp";
+import SubChapter from "../components/SubChapter";
+import "../style/center.css";
 
 export default class Profile extends Component {
     render() {
@@ -10,15 +10,27 @@ export default class Profile extends Component {
             <div>
                 <Container>
                     <Row id="profile">
-                        <Col sm={12} md={5}>
-                            <div className="title" class="pattern-diagonal-lines-lg white-lighter">
-                                <SubChapter judul={"Profil"}/>
+                        <Col sm={12} md={12}>
+                            <div
+                                className="title"
+                                class="pattern-diagonal-lines-lg white-lighter"
+                            >
+                                <SubChapter judul={"Profil"} />
                             </div>
-                            <div id="my-img-wall" class="pattern-dots-md gray-light">
+                        </Col>
+                        <Col sm={12} md={5} className="img-cont">
+                            <div
+                                id="my-img-wall"
+                                class="pattern-dots-md gray-light"
+                            >
                                 <div className="my-img"></div>
                             </div>
                         </Col>
-                        <Col sm={12} md={7}>
+                        <Col
+                            sm={12}
+                            md={7}
+                            className="d-flex align-items-center"
+                        >
                             <div id="mid">
                                 <ProfileComp />
                             </div>
@@ -27,6 +39,6 @@ export default class Profile extends Component {
                     <hr id="separator" />
                 </Container>
             </div>
-        )
+        );
     }
 }

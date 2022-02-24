@@ -1,0 +1,31 @@
+.exp-contain {
+    font-family: "poppins", sans-serif;
+}
+
+.exp-title {
+    margin-bottom: 17px;
+}
+
+.exp-title h2 {
+    color: hsl(0, 0%, 73%);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.exp-title h3 {
+    color: hsl(0, 0%, 73%);
+}
+
+#exp-time {
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.explain h4 {
+    font-weight: 500;
+    font-size: 18px;
+}

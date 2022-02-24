@@ -7,8 +7,8 @@ export default class Header extends Component {
         return (
             <div>
                 <Container>
-                    <Row className="row">
-                        <Col sm={8} md={10} className="img-cont">
+                    <Row id="head">
+                        <Col sm={12} md={10}>
                             <div
                                 id="text-wall"
                                 class="pattern-diagonal-lines-sm white-lighter"
@@ -19,7 +19,7 @@ export default class Header extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={4} md={2}>
+                        <Col sm={12} md={2}>
                             <div id="as">
                                 <h4>Rekayasa Perangkat Lunak</h4>
                             </div>
