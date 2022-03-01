@@ -2,8 +2,14 @@
     font-family: "poppins", sans-serif;
 }
 
+.exp-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .exp-title {
-    margin-bottom: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .exp-title h2 {

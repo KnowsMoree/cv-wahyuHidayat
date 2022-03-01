@@ -1,12 +1,6 @@
 .media-box {
-    display: grid;
-    grid-template-columns: auto auto;
     margin-left: 0;
     margin-bottom: 50px;
-}
-
-.contact-box {
-    margin-right: 20px;
 }
 
 .social-row a {

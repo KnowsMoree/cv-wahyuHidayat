@@ -8,7 +8,7 @@ export default class SkillName extends Component {
         return (
             <Container className="skill-hero">
                 <Row>
-                    <Col sm={6} md={6} className="skill-content">
+                    <Col sm={12} md={12} lg={6} className="skill-content">
                         <div className="title">
                             <SubChapter judul={"Keahlian"} />
                         </div>
@@ -24,7 +24,7 @@ export default class SkillName extends Component {
                         </div>
                         <hr id="separator" />
                     </Col>
-                    <Col sm={6} md={6} className="skill-content ">
+                    <Col sm={12} md={12} lg={6} className="skill-content ">
                         <div className="title">
                             <SubChapter judul={"Soft Skill"} />
                         </div>

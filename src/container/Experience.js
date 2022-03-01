@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import Apprentice from "../components/Apprentice";
 
-const Experience = () => {
-    return (
-        <div>
-            <Apprentice />
-        </div>
-    );
-};
-
-export default Experience;
+export default class Experience extends Component {
+    render() {
+        return (
+            <div>
+                <Apprentice />
+            </div>
+        );
+    }
+}
