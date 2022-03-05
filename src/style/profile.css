@@ -26,10 +26,11 @@
 }
 
 .my-img {
-    background: url(../img/my-img-2.jpg);
+    background: url(../img/img-0.JPG);
+    background-repeat: no-repeat;
     transform: translate(20px, -20px);
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    background-size: contain;
+    background-size: cover;
 }

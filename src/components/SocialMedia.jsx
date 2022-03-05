@@ -27,7 +27,7 @@ export default class SocialMedia extends Component {
                     </div>
                     <div className="social-row">
                         <FontAwesomeIcon id="icon" icon={faAt} />
-                        <h5>hidayatw936gmail.com</h5>
+                        <h5>hidayatw936@gmail.com</h5>
                     </div>
                     <div className="social-row">
                         <FontAwesomeIcon id="icon" icon={faWhatsapp} />
